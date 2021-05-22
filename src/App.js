@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 // import Home from "./pages/Home";
 // import About from "./pages/About";
 // import Contact from "./pages/Contact";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 // import Wrapper from "./components/Wrapper";
 
@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div>
         <aside>
-          {/* <Navbar /> */}
+          <Navbar />
         </aside>
         {/* <Wrapper>
           <Route exact path="/" component={Home} />
