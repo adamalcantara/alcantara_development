@@ -16,7 +16,7 @@ function Navbar() {
                 <a href="https://github.com/adamalcantara">
                     <img src={githublogo} alt="" className="linkimg"></img>
                 </a>
-                <a href="www.linkedin.com/in/adam-alcantara">
+                <a href="https://www.linkedin.com/in/adam-alcantara">
                     <img src={linkedinlogo} alt="" className="linkimg"></img>
                 </a>
                 <a href="mailto: alcantaradevlopment@gmail.com">
