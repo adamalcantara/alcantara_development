@@ -9,7 +9,9 @@ import "./style.css";
 function Navbar() {
     return (
         <div id="navbar">
-            <img src={logo} alt="Logo" id="logo"></img>
+            <Link to="/">
+                <img src={logo} alt="Logo" id="logo"></img>
+            </Link>
             <nav>
                 <Link to="/about" className="links">About</Link>
                 <Link to="/contact" className="links">Contact</Link>
