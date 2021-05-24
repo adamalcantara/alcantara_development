@@ -1,0 +1,93 @@
+.card {
+    background-color: dodgerblue !important;
+    color: white;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px !important;
+    border: none !important;
+    box-shadow: 0 0 30px rgb(174, 174, 174);
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    float: left;
+    margin-left: 100px;
+}
+
+#andChill {
+    background-image: url(./and_chill.png);
+    background-size: cover;
+}
+
+#cinepare {
+    background-image: url(./cinepare.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#codequiz {
+    background-image: url(./codequiz.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#weatherdash {
+    background-image: url(./weatherdash.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    border-radius: 10px !important;
+    border: none;
+}
+  
+.card:hover .overlay {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card:hover .text {
+    opacity: 1;
+}
+  
+  
+
+@media (max-width: 1670px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1233px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
