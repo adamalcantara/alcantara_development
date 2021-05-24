@@ -15,6 +15,7 @@ aside {
 .pageContent {
   float: left;
   align-content: flex-end;
+  width: 75%;
 }
 
 footer {

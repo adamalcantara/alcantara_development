@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import andChill from "./and_chill.png"
 import "./style.css";
+import Card from "../../components/Card"
 
 function Home() {
     return (
         <div className="page">
             <div className="container">
-               <div className="card" id="andChill">
+               {/* <div className="card" id="andChill">
                    <div className="overlay">
                         <div className="text">&Chill</div>
                    </div>
@@ -32,7 +32,8 @@ function Home() {
                <div className="card">SEVEN</div>
                <div className="card">EIGHT</div>
                <div className="card">NINE</div>
-               <div className="card">TEN</div>
+               <div className="card">TEN</div> */}
+               <Card />
             </div>
         </div>
     )
