@@ -1,3 +1,8 @@
+#contentBox {
+    display: flex;
+
+}
+
 #textbox {
     font-weight: 300;
     font-size: 23px;
@@ -7,4 +12,10 @@
 #resume {
     text-decoration: none;
     color: black;
+}
+
+#image {
+    float: right;
+    width: 400px;
+    height: 400px;
 }

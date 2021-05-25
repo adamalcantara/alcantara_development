@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import resume from "./AAResume2021.pdf";
+import profile from "./adam_headshot_small.jpg";
 
 function About() {
     return (
-        <div>
+        <div id="contentBox">
             <div id="textbox">
                 <p>My passion for building things has eclipsed everything else in my life since I was young.  My first websites were built with Apple’s iWeb, followed by Wordpress.  I have always been fascinated with the potential that web development has to offer.</p>
                 <p>This fascination is what led me to enroll in the Coding Boot Camp at the University of Central Florida to further my development skills.</p>
@@ -14,6 +15,7 @@ function About() {
                 <p>Contact me for more information.  I’ll build something awesome for you.</p>
                 <a id="resume" href={resume}>Click here to view my résumé.</a>
             </div>
+            <img src={profile} id="image"></img>
 
         </div>
     )
