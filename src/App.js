@@ -6,6 +6,10 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import AndChill from "./pages/AndChill";
+import CinePare from "./pages/CinePare";
+import WeatherDash from "./pages/WeatherDash";
+import CodeQuiz from "./pages/CodeQuiz";
 // import Wrapper from "./components/Wrapper";
 
 function App() {
@@ -19,10 +23,14 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/andchill" component={AndChill} />
+          <Route exact path="/cinepare" component={CinePare} />
+          <Route exact path="/weatherdash" component={WeatherDash} />
+          <Route exact path="/codequiz" component={CodeQuiz} />
         </div>
 
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
