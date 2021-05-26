@@ -8,13 +8,16 @@ import "./style.css";
 
 function Navbar() {
     return (
-        <div id="navbar">
-            <Link to="/">
+        <header>
+            <Link to="/" id="logoimg">
                 <img src={logo} alt="Logo" id="logo"></img>
             </Link>
-            <nav>
+            <nav id="navbar">
+                <div id="links">
                 <Link to="/about" className="links">About</Link>
                 <Link to="/contact" className="links">Contact</Link>
+                </div>
+                <div id="linkimg">
                 <a href="https://github.com/adamalcantara">
                     <img src={githublogo} alt="" className="linkimg"></img>
                 </a>
@@ -24,8 +27,9 @@ function Navbar() {
                 <a href="mailto: alcantaradevlopment@gmail.com">
                     <img src={emaillogo} alt="" className="linkimg"></img>
                 </a>
+                </div> 
             </nav>
-        </div>
+        </header>
 
     )
 }

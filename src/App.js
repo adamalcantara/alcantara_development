@@ -16,9 +16,10 @@ function App() {
   return (
     <Router>
       <div className="page">
-        <aside>
+        
+        
           <Navbar />
-        </aside>
+        
         <div className="pageContent">
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
@@ -30,8 +31,9 @@ function App() {
         </div>
 
 
-        <Footer />
+        
       </div>
+      <Footer />
     </Router>
   );
 }
