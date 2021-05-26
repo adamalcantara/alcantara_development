@@ -19,3 +19,21 @@
     width: 400px;
     height: 400px;
 }
+
+@media (max-width: 1300px) {
+    #image {
+        width: 200px;
+        height: 200px;
+    }
+    #textbox {
+        width: 60%;
+        margin-left: 50px;
+      }
+  }
+
+@media (max-width: 980px) {
+    #textbox {
+      width: 60%;
+      margin-left: 100px;
+    }
+  }
