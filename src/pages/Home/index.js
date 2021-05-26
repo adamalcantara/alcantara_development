@@ -6,7 +6,7 @@ import Card from "../../components/Card"
 function Home() {
     return (
         <div className="page">
-            <div className="container">
+            <div className="section">
                {/* <div className="card" id="andChill">
                    <div className="overlay">
                         <div className="text">&Chill</div>
