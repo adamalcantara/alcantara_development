@@ -30,6 +30,9 @@ p {
 }
 
 @media (max-width: 980px) {
+    #pageContent {
+        margin-left: 0;
+    }
     #buttons {
         display: flex;
         flex-direction: column;
@@ -37,6 +40,20 @@ p {
     .button {
         width: 50%;
         margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #pageContent {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    a.button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
         text-align: center;
     }
 }
