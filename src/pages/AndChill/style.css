@@ -28,3 +28,15 @@ p {
     text-decoration: none;
     cursor: pointer;
 }
+
+@media (max-width: 980px) {
+    #buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .button {
+        width: 50%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
