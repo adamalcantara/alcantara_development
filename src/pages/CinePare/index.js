@@ -10,7 +10,7 @@ function CinePare() {
             <p>Built with HTML, CSS, and JavaScript, this uses two APIs in order to display data about the movies the user searches.</p>
             <div id="buttons">
             <a href="https://github.com/adamalcantara/cine_pair" className="button">Project Repository</a>
-            <a href="https://adamalcantara.github.io/cine_pair/" className="button">Deployed Project</a>
+            <a href="https://adamalcantara.github.io/cinepare/" className="button">Deployed Project</a>
             </div>
         </div>
     )
