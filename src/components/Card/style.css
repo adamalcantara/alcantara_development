@@ -37,6 +37,12 @@
     background-position: center;
 }
 
+#stockchasr {
+    background-image: url(./stockchasr.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .overlay {
     position: absolute;
     top: 0;

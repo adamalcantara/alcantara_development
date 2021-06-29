@@ -11,6 +11,7 @@ import CinePare from "./pages/CinePare";
 import WeatherDash from "./pages/WeatherDash";
 import CodeQuiz from "./pages/CodeQuiz";
 import PhotoGallery from "./pages/PhotoGallery";
+import StockChasr from "./pages/StockChasr"
 // import Wrapper from "./components/Wrapper";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/weatherdash" component={WeatherDash} />
           <Route exact path="/codequiz" component={CodeQuiz} />
           <Route exact path="/photogallery" component={PhotoGallery} />
+          <Route exact path="/stockchasr" component={StockChasr} />
         </div>
 
 

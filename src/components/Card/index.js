@@ -4,6 +4,7 @@ import "./style.css";
 
 function Card() {
     const cardInfo = [
+        { id: "stockchasr", text: "StockChasr", linkto: "/stockchasr" },
         { id: "andChill", text: "&Chill", linkto: "/andchill" },
         { id: "cinepare", text: "CinePare", linkto: "/cinepare" },
         { id: "photogallery", text: "Photo Gallery", linkto: "/photogallery"},
