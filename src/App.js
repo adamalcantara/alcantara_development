@@ -10,6 +10,7 @@ import AndChill from "./pages/AndChill";
 import CinePare from "./pages/CinePare";
 import WeatherDash from "./pages/WeatherDash";
 import CodeQuiz from "./pages/CodeQuiz";
+import PhotoGallery from "./pages/PhotoGallery";
 // import Wrapper from "./components/Wrapper";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/cinepare" component={CinePare} />
           <Route exact path="/weatherdash" component={WeatherDash} />
           <Route exact path="/codequiz" component={CodeQuiz} />
+          <Route exact path="/photogallery" component={PhotoGallery} />
         </div>
 
 
