@@ -31,6 +31,12 @@
     background-position: center;
 }
 
+#photogallery {
+    background-image: url(./photogallery.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .overlay {
     position: absolute;
     top: 0;

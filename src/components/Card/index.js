@@ -6,6 +6,7 @@ function Card() {
     const cardInfo = [
         { id: "andChill", text: "&Chill", linkto: "/andchill" },
         { id: "cinepare", text: "CinePare", linkto: "/cinepare" },
+        { id: "photogallery", text: "Photo Gallery", linkto: "/photogallery"},
         { id: "weatherdash", text: "Weather Dashboard", linkto: "/weatherdash" },
         { id: "codequiz", text: "Code Quiz", linkto: "/codequiz" }
     ];
