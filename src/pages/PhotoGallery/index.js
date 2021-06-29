@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-import screenshot from "./andchillscreenshot.png"
+import screenshot from "./galleryscreenshot.png"
 
-function AndChill() {
+function PhotoGallery() {
     return (
         <div id="pageContent">
             <img id="screenshot" src={screenshot}></img>
@@ -16,4 +16,4 @@ function AndChill() {
     )
 }
 
-export default AndChill
+export default PhotoGallery
