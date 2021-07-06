@@ -36,4 +36,20 @@
       width: 60%;
       margin-left: 100px;
     }
+
+    #contentBox {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+      #textbox {
+          margin-left: 0;
+      }
+      #image {
+          width: 350px;
+          height: 350px;
+          margin-bottom: 30px;
+      }
   }
