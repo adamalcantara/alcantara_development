@@ -1,0 +1,19 @@
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+#submitBtn {
+    margin-top: 15px;
+    width: 75px;
+    border: none;
+    background-color: rgb(123, 123, 123);
+    border-radius: 6px;
+    color: white;
+    padding: 6px;
+}
+
+#submitBtn:hover {
+    background-color: rgb(160, 160, 160);
+}
