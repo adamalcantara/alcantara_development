@@ -10,7 +10,7 @@ function Contact() {
         // <a href="mailto: alcantaradevelopment@gmail.com">Click here to email me.</a>
         // </div>
         <div className="contact">
-        <p>Use the form below to contact me. I look forward to hearing from you!</p>
+        
         <ContactForm />
         </div>
     )

@@ -9,6 +9,7 @@ function ContactForm() {
     }
     return (
         <div>
+            <p>Use the form below to contact me. I look forward to hearing from you!</p>
             <form onSubmit={handleSubmit} id="form">
                 <label htmlFor="email">
                     Email Address:
