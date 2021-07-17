@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import resume from "./AAResume2021.pdf";
+import resume from "./Adam_Alcantara_coding_resume.pdf";
 import profile from "./adam_headshot_small.jpg";
 
 function About() {
