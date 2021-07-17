@@ -6,7 +6,12 @@
 #textbox {
     font-weight: 300;
     font-size: 23px;
-    width: 50%;
+    width: 90%;
+    margin-right: 20px;
+}
+
+#paragraph {
+    text-align: justify;
 }
 
 #resume {
@@ -14,10 +19,14 @@
     color: black;
 }
 
+#resume:hover {
+    cursor: pointer;
+}
+
 #image {
-    float: right;
-    width: 400px;
-    height: 400px;
+    float: left;
+    width: 375px;
+    height: 375px;
 }
 
 @media (max-width: 1300px) {
@@ -29,8 +38,9 @@
         height: 350px;
     }
     #textbox {
-        width: 60%;
+        width: 80%;
         margin-left: 50px;
+        margin-bottom: 20px;
       }
   }
 
