@@ -18,13 +18,13 @@ function Navbar() {
                 <Link to="/contact" className="links">Contact</Link>
                 </div>
                 <div id="linkimg">
-                <a href="https://github.com/adamalcantara">
+                <a href="https://github.com/adamalcantara" target="_blank">
                     <img src={githublogo} alt="" className="linkimg"></img>
                 </a>
-                <a href="https://www.linkedin.com/in/adam-alcantara">
+                <a href="https://www.linkedin.com/in/adam-alcantara" target="_blank">
                     <img src={linkedinlogo} alt="" className="linkimg"></img>
                 </a>
-                <a href="mailto: alcantaradevlopment@gmail.com">
+                <a href="mailto: alcantaradevlopment@gmail.com" target="_blank">
                     <img src={emaillogo} alt="" className="linkimg"></img>
                 </a>
                 </div> 
