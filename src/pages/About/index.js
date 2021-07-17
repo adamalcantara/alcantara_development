@@ -13,7 +13,7 @@ function About() {
                 <p>When it comes to web development, I am passionate about dynamic, intuitive user experiences.  I can be described as driven, ambitious, and always looking for a new challenge to pursue.</p>
                 <p>In my spare time, I can be found building guitars, or taking photographs.</p>
                 <p>Contact me for more information.  I’ll build something awesome for you.</p>
-                <a id="resume" href={resume}>Click here to view my résumé.</a>
+                <a id="resume" href={resume} target="_blank">Click here to view my résumé.</a>
             </div>
             <img src={profile} id="image"></img>
 
