@@ -21,6 +21,7 @@
 
 #resume:hover {
     cursor: pointer;
+    color: lightgrey;
 }
 
 #image {
